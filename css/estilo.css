@@ -1,0 +1,197 @@
+/* Reset */
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+/* Definição de fonte */
+h1, h2, p, a {font-family: 'Roboto Slab', serif; color: #ffee00;}
+h3 {font-family: Geneva, sans-serif; color: rgb(59, 186, 245);}
+h4 {font-family: 'Roboto Slab', serif; color: #ffee00; font-size: 15px;}
+
+
+
+.cabecalho {  
+    display: flex; 
+    flex-direction: row;      
+    background-color: #000000;    
+   
+    border-bottom: 4px solid #ffee00af;   
+}
+
+/* .button {
+    background-image: url(/imagens/starwars-logo.png) no-repeat left top; 
+    background-size: 100%;
+    width: 10%;
+    height: 90px;
+    border: 3px solid #ffee00af;
+    color: white;    
+    text-align: center;
+    text-decoration: none;    
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+  } */
+
+/* .container {    
+    max-width: auto; 
+    margin: 0 auto; 
+    padding: 0px;     
+} */
+
+/* .cabecalho .container {
+    display:flex; 
+    margin:0;  
+} */
+
+.logo {
+    width: 40%;  
+    /* margin-left: 10px;   */
+    margin: 5px 0 0 30px;
+}
+
+.menu_navegacao {
+    margin: 40px 0 40px 0;
+    display: flex;   
+    color: #1a1a1a;   
+    font-size: 20px;   
+}
+
+.menu_navegacao a {
+    color: #ffee00;
+    margin: 0 15px; 
+    text-decoration: none; 
+    font-size: 17px;     
+}
+
+.vermelho a {
+    color: #ff1e00;
+}
+
+.menu_navegacao a:hover {
+    color: #ff1e00; 
+}
+
+.imagens_fundo1 {
+    width: 100%;     
+    background: url(../imagens/vader-death-star.jpg) no-repeat center; 
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.imagens_fundo2 {
+    width: 100%;    
+    background:url(../imagens/darth-vader-knight.jpg) no-repeat center;
+    background-size: cover; 
+    background-attachment: fixed;    
+}
+
+.imagens_fundo3 {
+    width: 100%;   
+    background: url(../imagens/corredor-sugestoes.jpg) no-repeat center;
+    background-size: cover; 
+    background-attachment: fixed;    
+}
+
+.modulo {
+    width: auto; 
+    margin: 0 200px; 
+}
+
+.titulo1 {
+    font-size: 50px;
+    /* font-size:200vw; */
+    text-align: center; 
+    text-shadow: #000000 0 0 6px, #000000 0 0 4px; 
+    padding: 70px;
+}
+
+.titulo2 {
+    font-size: 50px;
+    /* font-size:200vw; */
+    text-align: left; 
+    text-shadow: #000000 0 0 6px, #000000 0 0 4px; 
+    padding-top: 80px;
+}
+
+.texto1 {
+    font-size: 25px;    
+    text-shadow: #000000 0 0 6px, #000000 0 0 4px;
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+.modulo2 {
+    width: auto; 
+    margin: 0 100px; 
+}
+
+.texto2 {
+    font-size: 25px;    
+    text-shadow: #000000 0 0 6px, #000000 0 0 4px;
+    text-align: justify; 
+    margin: 70px 0; 
+}
+
+.pag2_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 70px;
+}
+
+.texto3 {
+    font-size: 25px;    
+    text-shadow: #000000 0 0 6px, #000000 0 0 4px;
+    text-align: left; 
+    padding: 10px 0;
+}
+
+.pag2_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 100px 0;
+}
+.texto4 {
+    font-size: 25px;    
+    text-shadow: #000000 0 0 6px, #000000 0 0 4px;
+    text-align: left;
+    padding-left: 40px;     
+}
+
+.meio{
+    padding: 0 40px;
+}
+
+.meio > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between; 
+    margin: 100px;
+    margin-bottom: 20px;    
+}
+
+.meio .legenda {
+    margin: 20px 52px 200px 52px;
+    /* background-color: lawngreen; */
+    text-shadow: #000000 0 0 6px, #000000 0 0 4px;
+        
+}
+
+.meio .legenda > div {
+    margin: 0 50px;
+    width: 260px;
+   
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rodape {
+    width: 100%; 
+    margin-top: 100px;
+    padding:50px 0; 
+    background-color: #333;    
+    border-top: 6px solid #ffee00; 
+    text-align: center;    
+}
