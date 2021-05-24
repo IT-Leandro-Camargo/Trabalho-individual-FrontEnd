@@ -9,6 +9,16 @@
     <link rel="icon" href="imagens/icon-vader-head4.ico">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
+    <script>             
+        var chewie = new Audio();
+        chewie.src = "sounds/wookie.wav";
+
+        var yoda = new Audio();
+        yoda.src = "sounds/yoda-throughtheforce.wav"
+
+        var vader = new Audio();
+        vader.src = "sounds/join-me-and-together-we-can-rule-the-galaxy-as-father-and-son.mp3"
+    </script>
 
 </head>
 <body>   
@@ -17,12 +27,12 @@
         <div class="logo">
             <a href="index.html"><img src="imagens/StarWars-logo-preto.jpg" width="35%" alt="Star Wars logo"></a>
         </div>
-        <div class="menu_navegacao">               
+        <div class="menu_navegacao">                                 
             <div>
                 <a href="index.html">Início</a>
             </div>
             <div class="vermelho">
-                <a href="quem-somos-pag2.html">Quem Somos</a>
+                <a href="quem-somos-pag2.html" onmouseover=chewie.play()>Quem Somos</a>
             </div>
             <div>
                 <a href="contato-pag3.html">Contato</a> 
@@ -49,13 +59,13 @@
                         Através da Força coisas você vai ver. Para o Lightside seguir você deve."<br>
                         - Master Yoda -
                     </p>                    
-                    <img src="/imagens/lightside-sign-pic.jpg" alt="">
+                    <img src="/imagens/lightside-sign-pic.jpg" onmouseover=yoda.play() alt="">
                 </div>
                 <div class="pag2_2">
-                    <img src="/imagens/darkside-sign-pic.jpg" alt="">
+                    <img src="/imagens/darkside-sign-pic.jpg" onmouseover=vader.play() alt="">
                     <p class="texto4"> "Você apenas começou a descobrir seu poder. Venha para o 
                         Lado Negro da Força e eu completarei seu treinamento.<br>
-                        Juntos, poderemos dominar o Universo."<br>- Darth Vader -
+                        Juntos, poderemos dominar a Galáxia como pai e filho."<br>- Darth Vader -
                         
                     </p> 
                 </div>                   

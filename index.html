@@ -9,6 +9,25 @@
     <link rel="icon" href="imagens/icon-vader-head4.ico">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
+    <script>
+        var r2d2 = new Audio();
+        r2d2.src = "sounds/R2D2a.wav";
+
+        var lightsaber = new Audio();
+        lightsaber.src = "sounds/lightsaber-sound.mp3";
+
+        var vaderbreath = new Audio();
+        vaderbreath.src = "sounds/swvader02.mp3";
+
+        var chewie = new Audio();
+        chewie.src = "sounds/wookie.wav";
+
+        var yoda = new Audio();
+        yoda.src = "soundsyoda-throughtheforce.wav"
+
+        var vader = new Audio();
+        vader.src = "join-me-and-together-we-can-rule-the-galaxy-as-father-and-son.mp3"
+    </script>
 
 </head>
 <body>  
@@ -17,9 +36,10 @@
         <div class="logo">
             <a href="index.html"><img src="imagens/StarWars-logo-preto.jpg" width="35%" alt="Star Wars logo"></a>
         </div>
-        <div class="menu_navegacao">               
+        <div class="menu_navegacao">  
+                         
             <div class="vermelho">
-                <a href="index.html">Início</a>
+                <a href="index.html" onmouseover=chewie.play()>Início</a>
             </div>
             <div>
                 <a href="quem-somos-pag2.html">Quem Somos</a>
@@ -36,7 +56,7 @@
         </div>   -->
 
         <div class="imagens_fundo1">
-            <div class="modulo">
+            <div class="modulo">                
                 <h2 class="titulo1">Bem-vindo ao Star Wars FanClub</h2>
                 <p class="texto1">Você está no hyperspace, onde grandes aventuras e inúmeros
                     perigos estão espalhados por toda far, far away galaxy.
@@ -48,11 +68,11 @@
                 </p>                    
             </div>
             
-            <div class="meio">
-                <div>
-                    <img src="/imagens/jedi-trainment.jpg" alt="">
-                    <img src="/imagens/star-wars-souveniers.jpg" alt=""> 
-                    <img src="/imagens/wdw-vouchers.jpg" alt="">
+            <div class="meio">                
+                <div>                    
+                    <img src="/imagens/jedi-trainment.jpg"  onmouseover=lightsaber.play() alt="">
+                    <img src="/imagens/star-wars-souveniers.jpg" onmouseover=vaderbreath.play() alt=""> 
+                    <img src="/imagens/wdw-vouchers.jpg" onmouseover=r2d2.play() alt="">
                 </div>
                 <div class="legenda">
                     <div>
